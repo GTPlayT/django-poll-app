@@ -1,0 +1,45 @@
+li {
+    color:white;
+    font-size: 20;
+    opacity: 1;
+}
+a {
+    color: white;
+    font-size: 20
+}
+h1 {
+    color: white;
+}
+p {
+    color:white;
+    font-size: 18
+}
+lable {
+    color: white;
+    font-size: 20
+}
+
+div {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px
+}
+
+div:hover {
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);
+}
+
+body {
+    background: white url("images/backgroun.gif") no-repeat;
+    position: relative;
+    display: flex;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px
+}
